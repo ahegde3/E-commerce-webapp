@@ -1,3 +1,0 @@
-- login with token (done)
-- Return product (done)
-- Get detail about particular product (done)

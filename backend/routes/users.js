@@ -10,6 +10,7 @@ router.post("/login", (req, res) => {
       return res.json({ token });
     })
     .catch((e) => {
+      console.log(e);
       res.statusCode = 401;
       return res.json({ error: e });
     });
