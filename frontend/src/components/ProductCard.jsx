@@ -5,12 +5,8 @@ const ProductCard = ({ product }) => {
   const { image, description, name, price } = product;
 
   return (
-    <a
-      className="product-card"
-      href="#dolce-gabbana-cropped"
-      onClick={() => console.log("clicked")}
-    >
-      <img className="product-card__image" src={image} />
+    <a className="product-card" href="#dolce-gabbana-cropped">
+      <img className="product-card__image" src={image} alt={name} />
       <p className="product-card__brand">{name}</p>
       <p className="product-card__description">{description}</p>
       <p className="product-card__price">{price}</p>

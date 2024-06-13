@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import Logo from "./Logo";
 import Avatar from "@mui/material/Avatar";
 import Button from "@material-ui/core/Button";
-import Box from "@mui/material/Box";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import Fade from "@material-ui/core/Fade";

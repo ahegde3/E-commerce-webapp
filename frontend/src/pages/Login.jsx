@@ -41,7 +41,7 @@ export default function Login() {
   //skip login if the user is already logged in.
   useEffect(() => {
     if (localStorage.getItem("isLogged") === "true") navigate("/home");
-  }, []);
+  });
 
   return (
     <ThemeProvider theme={defaultTheme}>
